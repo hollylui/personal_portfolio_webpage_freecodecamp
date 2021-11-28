@@ -51,13 +51,41 @@ h1 {
 /* work section ------------------------------ */
 
 #projects {
-  background-color: #0099ff;
+  background-color: #004472;
   text-align: center;
 }
 
 h2 {
   margin: 0 auto;
   font-size: 3rem;
+}
+
+.projectTitles {
+  display: flex;
+  justify-content: center;
+}
+
+.project-title {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-link {
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  background-color: #7e5200a1;
+  padding: 10px 0;
+}
+
+.project-link:hover {
+  background-color: #7e5200;
+  text-decoration: underline;
+}
+
+.project-title {
+  padding: 5px;
 }
 
 /* DRY --------------------------------------- */
