@@ -1,0 +1,67 @@
+:root {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* navbar ------------------------------------ */
+nav {
+  background: #af3939;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  width: 120px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 2rem;
+}
+
+nav a:hover {
+  background: #000;
+}
+
+/* about section ------------------------------ */
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-size: 4rem;
+}
+
+#welcome-section p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* work section ------------------------------ */
+
+#projects {
+  background-color: #0099ff;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+/* DRY --------------------------------------- */
+#welcome-section,
+#projects {
+  margin: 0 -8px;
+}
